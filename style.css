@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Raleway:ital,wght@1,200&display=swap');
+
+
+body {
+  background-color: #e8eae6;
+  color: black;
+  line-height: 40px;
+}
+
+.container {
+  width: 500px;
+  margin: 40px auto;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.white-card {
+    background-color: white;
+    padding: 40px;
+    box-shadow: 0px 10px 30px rgb(0 0 0 / 10%);
+    border-radius: 4px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.btn-yellow {
+  text-align: center;
+  background-color: ;
+  color: yellow;
+  padding: 10px 15px;
+  border-radius: 4px;
+  transition: background-color 0.5% ease;
+}
+
+
+h1 {
+  font-family: 'Montserrat', Raleway;
+  font-size: 4em;
+}
+p {
+  font-family: Montserrat;
+}
+
+h3 {
+  font-family: 'Raleway', Raleway;
+  font-size: 2em;
+}
+
+a {
+  text-decoration: none;
+  color: #7c9473;
+  font-size: 30px;
+}
+  a:hover {
+    color: #ffc75f;
+  }
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 3px;
+}
+
+/* Media Queries
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
